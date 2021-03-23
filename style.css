@@ -1,0 +1,31 @@
+.transparent {
+    background-color: rgba(0, 0, 0, 0);
+    
+ }
+
+
+.hero-section{
+    height: 30em;
+}
+.bg-image{
+    background: url("images/real-estate-pexels-splash-home.jpeg");
+     background-repeat: no-repeat, repeat;
+     background-size: cover;
+     width:100%;
+    
+ }
+
+ .search-icon{
+    background: url(images/icon.png) no-repeat right center;
+ }
+
+ .links{
+  list-style-type: none; /* removes bullets */
+  margin: 0; /* removes margins */
+  padding: 0; /* removes padding */
+ }
+ 
+ .copyright{
+   height: 3em;
+ }
+

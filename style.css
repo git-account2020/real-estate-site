@@ -29,3 +29,37 @@
    height: 3em;
  }
 
+
+.socialMediaLinks a {
+  font-size:26px;
+  margin: 0 10px 0 0;
+  color: #000000;
+  text-decoration: none;
+  background: #b7b6b6;
+  padding:15px;
+  width: 60px;
+  text-align:center;
+  border-radius: 50%;
+}
+
+.socialMediaLinks a.fa-twitter { 
+  color: white; /* So inner icon will show inside backgorund */
+  background-color: #00aced; /* Make this the color the company uses for its icons*/
+}
+
+.socialMediaLinks a.fa-facebook{ 
+  color: white;
+  background-color: #3b5998;
+ 
+}
+
+.socialMediaLinks a.fa-youtube { 
+  color:white;
+  background-color: #c4302b;
+}
+
+
+.socialMediaLinks a.fa-instagram { 
+  color:white;
+  background-color: #8a3ab9; 
+}

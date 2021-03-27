@@ -1,0 +1,45 @@
+/*
+
+## Create Social Media icons 
+    https://hollypryce.com/social-media-icons/	    
+
+    1. Get link element for font awesome from either the site or w3schools
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    2. Add html
+         <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+    3. Add CSS
+
+*/
+
+
+.socialMediaLinks a { /* class to change the pace look of icon all at once */
+
+    font-size: 26px; /* increase the size of the icons inside the background */
+    margin: 0 10px 0 0; /* space between the icons*/
+    color: #000000; /* base color of icons before we change it later individually*/
+    text-decoration: none; /* remove underline for link */
+    background: #b7b6b6; /* base color of icon background before change it later idividually*/
+    padding: 15px; /* make the circle background bigger */
+    width: 60px; /* make the circle same size */
+    text-align: center; /* put the icon in the middle of the background */
+    border-radius: 50%; /* make the bacground a circle */
+
+}
+
+.socialMediaLinks a.fa-twitter { 
+    color: white; /* So inner icon will show inside backgorund */
+    background-color: #00aced; /* Make this the color the company uses for its icons*/
+}
+
+.socialMediaLinks a.fa-facebook{ 
+    color: white;
+    background-color: #3b5998;
+   
+}
+.socialMediaLinks a.fa-instagram { 
+    color:white;
+    background-color: #8a3ab9; 
+}

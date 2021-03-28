@@ -30,36 +30,28 @@
  }
 
 
-.socialMediaLinks a {
-  font-size:26px;
-  margin: 0 10px 0 0;
-  color: #000000;
-  text-decoration: none;
-  background: #b7b6b6;
-  padding:15px;
-  width: 60px;
-  text-align:center;
-  border-radius: 50%;
+.socialMediaIcons{
+  
 }
 
-.socialMediaLinks a.fa-twitter { 
-  color: white; /* So inner icon will show inside backgorund */
-  background-color: #00aced; /* Make this the color the company uses for its icons*/
-}
-
-.socialMediaLinks a.fa-facebook{ 
-  color: white;
+.lni-facebook-filled{
   background-color: #3b5998;
- 
+  color: white;
+}
+.lni-twitter-filled{
+  background-color: #00acee ;
+  color: white;
+}
+.lni-instagram-filled{
+  background-color:#458eff;
+  color:  white;
 }
 
-.socialMediaLinks a.fa-youtube { 
-  color:white;
-  background-color: #c4302b;
+.lni-linkedin-original{
+  background-color:   #0e76a8;
+  color:   white;
 }
 
 
-.socialMediaLinks a.fa-instagram { 
-  color:white;
-  background-color: #8a3ab9; 
-}
+
+/* write the steps for creating social media icons

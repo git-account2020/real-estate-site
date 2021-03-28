@@ -1,5 +1,15 @@
+## Troubleshooting steps
+
+  1. Write down in dialy tasks the steps you will try before based on your best guest
+  2. Use a test.html page
+      - This way you make changes and get it working without worrying about messing with other code
+  3. Test each step
+      - if it work emplement it into yoru code
+      - if it doesn't work restart on step 1
+
 ## Footer
-  - Nav links without bullets
+
+### Nav links without bullets
       - CSS
      
         ```.links{
@@ -31,8 +41,23 @@
           </ul>
         </div>```
         
-    - Search bar
-      - Pill shape
-        - rounded-pill
-      - Move placeholder
-        - add padding left, right, ect
+  
+### Search bar
+  - Pill shape
+      - rounded-pill
+  - Move placeholder
+      - add padding left, right, ect
+
+### Social media icons
+  - Use icon from font awesome, bootstrap, etc
+  - Changing colors
+      - icon = color:white
+      - background = backround-color: #hex of social media icon
+  - Background 
+      - Make it a circle
+          - Use rounded-circle (bootsrap) or border-radius: 50% (css)
+      - Make circle bigger
+          - Add padding 
+  
+
+

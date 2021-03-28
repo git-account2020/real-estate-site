@@ -60,6 +60,8 @@
           - Use rounded-circle (bootsrap) or border-radius: 50% (css)
       - Make circle bigger
           - Add padding 
+  - Hover effect
+      - Add .className:hover{opacity:0.5} in css below the class name with the rest of the css for the that specific icon
   
 
 

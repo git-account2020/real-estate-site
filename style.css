@@ -25,12 +25,7 @@
   padding: 0; /* removes padding */
  }
  
- .copyright{
-   height: 3em;
- }
-
-
-.socialMediaIcons{
+footer h3{
   
 }
 
@@ -65,5 +60,7 @@
 }
 
 
+.copyright{
+  height: 3em;
+}
 
-/* write the steps for creating social media icons

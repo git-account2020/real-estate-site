@@ -47,6 +47,8 @@
       - rounded-pill
   - Move placeholder
       - add padding left, right, ect
+  - Increase height of search 
+      - increase padding or use padding-top and padding-bottom
 
 ### Social media icons
   - Use icon from font awesome, bootstrap, etc

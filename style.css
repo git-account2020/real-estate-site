@@ -38,18 +38,30 @@
   background-color: #3b5998;
   color: white;
 }
+.lni-facebook-filled:hover {
+  opacity: 0.5;
+}
+
 .lni-twitter-filled{
   background-color: #00acee ;
   color: white;
+}
+.lni-twitter-filled:hover {
+  opacity: 0.5;
 }
 .lni-instagram-filled{
   background-color:#458eff;
   color:  white;
 }
-
+.lni-instagram-filled:hover {
+  opacity: 0.5;
+}
 .lni-linkedin-original{
   background-color:   #0e76a8;
   color:   white;
+}
+.lni-linkedin-original:hover {
+  opacity: 0.5;
 }
 
 

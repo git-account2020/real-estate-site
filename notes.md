@@ -16,6 +16,8 @@
           list-style-type: none; /* removes bullets */
           margin: 0; /* removes margins */
           padding: 0; /* removes padding */
+          text-decoration: none;
+          color: inherit;
         } ```
         
       - HTML

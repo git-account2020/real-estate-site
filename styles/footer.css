@@ -1,0 +1,30 @@
+
+
+  
+.lni-facebook-filled:hover {
+  background-color: #3b5998;
+  color: white;
+}
+
+
+
+.lni-twitter-filled:hover {
+  background-color: #00acee ;
+  color: white;
+}
+
+.lni-instagram-filled:hover {
+  background-color:#458eff;
+  color:  white;
+}
+
+.lni-linkedin-original:hover {
+  background-color:   #0e76a8;
+  color:   white;
+}
+
+
+.copyright{
+  height: 3em;
+}
+

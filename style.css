@@ -1,3 +1,5 @@
+@import "styles/footer.css";
+
 .transparent {
     background-color: rgba(0, 0, 0, 0);
     
@@ -15,53 +17,22 @@
     
  }
 
+ footer a{
+  color: inherit;
+ }
+
+ footer a:hover{
+  color: white; 
+ }
 
  .links{
   list-style-type: none; /* removes bullets */
   margin: 0; /* removes margins */
   padding: 0; /* removes padding */
+  
  }
  
  .search-icon{
   background: url(images/icon.png) no-repeat right center;
-}
-
-footer h3{
-  
-}
-
-.lni-facebook-filled{
-  background-color: #3b5998;
-  color: white;
-}
-.lni-facebook-filled:hover {
-  opacity: 0.5;
-}
-
-.lni-twitter-filled{
-  background-color: #00acee ;
-  color: white;
-}
-.lni-twitter-filled:hover {
-  opacity: 0.5;
-}
-.lni-instagram-filled{
-  background-color:#458eff;
-  color:  white;
-}
-.lni-instagram-filled:hover {
-  opacity: 0.5;
-}
-.lni-linkedin-original{
-  background-color:   #0e76a8;
-  color:   white;
-}
-.lni-linkedin-original:hover {
-  opacity: 0.5;
-}
-
-
-.copyright{
-  height: 3em;
 }
 

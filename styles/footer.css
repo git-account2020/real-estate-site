@@ -6,6 +6,7 @@
   top: 100%; /* Threshold so that 100% of the view port must be between the top of the class before it becomes sticky */
 }
 
+
 footer a{
 color: inherit;
 }

@@ -101,3 +101,11 @@
   } 
   ```
 
+### Responsive columns
+
+```html
+   
+  <div class="col-md"> 
+    <!-- columns will be veritically stacked until it hits medium viewport -->
+
+```

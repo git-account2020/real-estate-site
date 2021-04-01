@@ -1,8 +1,5 @@
 @import "styles/footer.css";
 
-body{
-  min-height: 100vh; /* make the minimum height of the body 100% of the whole screen */
-}
 
 
 .hero-section{

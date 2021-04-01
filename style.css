@@ -1,9 +1,5 @@
 @import "styles/footer.css";
 
-.transparent {
-    background-color: rgba(0, 0, 0, 0);
-    
- }
 
 
 .hero-section{
@@ -17,13 +13,7 @@
     
  }
 
- footer a{
-  color: inherit;
- }
 
- footer a:hover{
-  color: white; 
- }
 
  .links{
   list-style-type: none; /* removes bullets */

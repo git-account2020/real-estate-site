@@ -1,6 +1,21 @@
 
+/* Sticky Footer Styling */
+  body{
+    min-height: 100vh; /* make the minimum height of the body 100% of the whole screen */
+  }
+.sticky-footer{
+  position: sticky; /* positions object to stay in place regardless of scrolling */
+  top: 100%; /* Threshold so that 100% of the view port must be between the top of the class before it becomes sticky */
+}
 
-  
+footer a{
+color: inherit;
+}
+
+footer a:hover{
+color: white; 
+}  
+
 .lni-facebook-filled:hover {
   background-color: #3b5998;
   color: white;
@@ -23,8 +38,4 @@
   color:   white;
 }
 
-
-.copyright{
-  height: 3em;
-}
 

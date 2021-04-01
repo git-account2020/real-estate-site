@@ -91,6 +91,13 @@
         - Add padding 
     - Hover effect
         - Add .className:hover{opacity:0.5} in css below the class name with the rest of the css for the that specific icon
-  
 
+### Outline showng while clicking on rounded pill search
+
+```css
+
+  *{
+    outline:none;
+  } 
+  ```
 

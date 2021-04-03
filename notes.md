@@ -132,3 +132,5 @@ This shows the css as it was written
 6. Copy the font-family css code
 7. Paste the code in the css file inside the element, class, or id you will be using on
 
+### Margins (large) on the side of footer
+Changed the footer to .container this automatically gave it large margins on the side

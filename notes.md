@@ -134,3 +134,6 @@ This shows the css as it was written
 
 ### Margins (large) on the side of footer
 Changed the footer to .container this automatically gave it large margins on the side
+
+### Margin too much at top of screen
+Useful links column had too much margin at smaller or medium size . Fixed by remove mt-5 because at xs-md it doesn't need any extra margin because its already at the top of screen like about

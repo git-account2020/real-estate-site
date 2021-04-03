@@ -7,6 +7,10 @@
       - if it work emplement it into yoru code
       - if it doesn't work restart on step 1
 
+## How I found answers
+- Responsive columns
+  - Looked at the templates or site I was copying and inspected the column element and it showed me how they did it
+
 ## Chrome dev tools
 
 ### Computed Tab
@@ -110,6 +114,12 @@ This shows the css as it was written
 
 ### Responsive columns
 
+By defining the number of columns for each break point and giving that amount to all of the columns I can have the break points show how ever many columns I want. 
+Ex: 
+```html
+<div class="col-12 col-sm-6 col-lg-3 mt-sm-0 ">
+```
+### What does .col-md mean?
 ```html
   <div class="col-md"> 
     <!-- columns will be veritically stacked until it hits medium viewport -->
@@ -137,3 +147,4 @@ Changed the footer to .container this automatically gave it large margins on the
 
 ### Margin too much at top of screen
 Useful links column had too much margin at smaller or medium size . Fixed by remove mt-5 because at xs-md it doesn't need any extra margin because its already at the top of screen like about
+

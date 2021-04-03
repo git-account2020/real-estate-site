@@ -132,19 +132,18 @@ Ex:
 - Use dev tools computed tab
 
 ### Import google fonts
- You can use the @import option to import the font into the css directly instead of in the link. This helps with abstraction because you can import the font for the specific section of css you want directly on that page. 
+ - You can use the @import option to import the font into the css directly instead of in the link. This helps with abstraction because you can import the font for the specific section of css you want directly on that page. 
 
 1. Find the font
 2. Choose the font
 3. Choose the @import option ( on the side at time of writing)
-4. Copy the code inside the <style> tag 
+4. Copy the code inside the style tag 
 5. Paste the code in the specific css file where it will be used
 6. Copy the font-family css code
 7. Paste the code in the css file inside the element, class, or id you will be using on
 
 ### Margins (large) on the side of footer
-Changed the footer to .container this automatically gave it large margins on the side
+- Changed the footer to .container this automatically gave it large margins on the side
 
 ### Margin too much at top of screen
-Useful links column had too much margin at smaller or medium size . Fixed by remove mt-5 because at xs-md it doesn't need any extra margin because its already at the top of screen like about
-
+- Useful links column had too much margin at smaller or medium size . Fixed by remove mt-5 because at xs-md it doesn't need any extra margin because its already at the top of screen like about

@@ -109,3 +109,9 @@
     <!-- columns will be veritically stacked until it hits medium viewport -->
 
 ```
+
+### Find font family
+- Use dev tools arrow button
+
+### Find font weight
+- Use dev tools computed tab

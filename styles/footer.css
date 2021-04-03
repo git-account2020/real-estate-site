@@ -56,3 +56,10 @@ color: white;
   outline: none;
 }
 
+.pt-6{
+  padding-top: 3.75em;
+}
+
+.pb-6{
+  padding-bottom:3.75em;
+}

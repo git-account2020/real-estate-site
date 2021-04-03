@@ -7,6 +7,14 @@
       - if it work emplement it into yoru code
       - if it doesn't work restart on step 1
 
+## Chrome dev tools
+
+### Computed Tab
+This shows the actual resolved css as it is rendered on the page
+
+### Style Tab
+This shows the css as it was written
+
 ## Footer
 
 
@@ -95,7 +103,6 @@
 ### Outline showng while clicking on rounded pill search
 
 ```css
-
   *{
     outline:none;
   } 
@@ -104,10 +111,8 @@
 ### Responsive columns
 
 ```html
-   
   <div class="col-md"> 
     <!-- columns will be veritically stacked until it hits medium viewport -->
-
 ```
 
 ### Find font family
@@ -115,3 +120,15 @@
 
 ### Find font weight
 - Use dev tools computed tab
+
+### Import google fonts
+ You can use the @import option to import the font into the css directly instead of in the link. This helps with abstraction because you can import the font for the specific section of css you want directly on that page. 
+
+1. Find the font
+2. Choose the font
+3. Choose the @import option ( on the side at time of writing)
+4. Copy the code inside the <style> tag 
+5. Paste the code in the specific css file where it will be used
+6. Copy the font-family css code
+7. Paste the code in the css file inside the element, class, or id you will be using on
+

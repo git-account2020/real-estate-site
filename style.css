@@ -1,3 +1,4 @@
+@import "styles/header.css";
 @import "styles/footer.css";
 
 
@@ -15,12 +16,6 @@
 
 
 
- .links{
-  list-style-type: none; /* removes bullets */
-  margin: 0; /* removes margins */
-  padding: 0; /* removes padding */
-  
- }
  
  .search-icon{
   background: url(images/icon.png) no-repeat right center;

@@ -21,6 +21,13 @@ body{
 }
 
 
+.links{
+  list-style-type: none; /* removes bullets */
+  margin: 0; /* removes margins */
+  padding: 0; /* removes padding */
+  
+ }
+
 footer a{
 color: inherit;
 font-family: 'Open Sans', sans-serif;

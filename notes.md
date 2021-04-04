@@ -11,6 +11,13 @@
 - Responsive columns
   - Looked at the templates or site I was copying and inspected the column element and it showed me how they did it
 
+- Responsive navbar
+  1. Search youtube for tutorial looked for shortest one 
+    - Used newboston
+    - Even though answer was old found in his code navbar classes I was missing. And that navbar is automatically responsive
+  2. Resarched navbar on bootstrap and got closer with responsiveness
+    - Watched a tutorial on bootstrap navbar
+
 ## Chrome dev tools
 
 ### Computed Tab
@@ -20,8 +27,6 @@ This shows the actual resolved css as it is rendered on the page
 This shows the css as it was written
 
 ## Footer
-
-
 
 ### Sticky footer (CSS)
 - HTML
@@ -147,3 +152,23 @@ Ex:
 
 ### Margin too much at top of screen
 - Useful links column had too much margin at smaller or medium size . Fixed by remove mt-5 because at xs-md it doesn't need any extra margin because its already at the top of screen like about
+
+
+## Header
+
+### Nav spacing between columns not spread to end
+- Nav wasn't taking up the whole width of row
+- Made nav width 100% of row with .w-100
+
+
+### How to create a collapse button in bootstrap
+
+https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
+
+.collapse class indicates a collapsible element (a div in our example); this is the content that will be shown or hidden with a click of a button.
+
+### How to make the menu button
+- The icon with the 3 lines is called a "menu" icon 
+- You can get it at this site https://lineicons.com/icons/ by typing in menu
+  - This should work on other sites that offer icons
+- Also can use &#9776; ( this the unicode for 3 lines) don't use if you don't have to because it can be blurry on non-retina displays and doesn't have correct semantic meaning https://css-tricks.com/three-line-menu-navicon/

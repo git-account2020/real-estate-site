@@ -167,8 +167,15 @@ https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
 
 .collapse class indicates a collapsible element (a div in our example); this is the content that will be shown or hidden with a click of a button.
 
-### How to make the menu button
+### Menu button (create)
 - The icon with the 3 lines is called a "menu" icon 
 - You can get it at this site https://lineicons.com/icons/ by typing in menu
   - This should work on other sites that offer icons
 - Also can use &#9776; ( this the unicode for 3 lines) don't use if you don't have to because it can be blurry on non-retina displays and doesn't have correct semantic meaning https://css-tricks.com/three-line-menu-navicon/
+
+### Collapse menu not disapearing
+` Missing: 
+```html
+<nav class="navbar navbar-expand-md d-flex w-100 ">
+```
+- especially the navbar-expand-md which makes the nav list horizontal after the medium breakpoint(or whichever you set). And apparently it also determines if the menu icon will disapeear and the links will show automatically at that breakpoint

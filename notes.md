@@ -17,6 +17,14 @@
     - Even though answer was old found in his code navbar classes I was missing. And that navbar is automatically responsive
   2. Resarched navbar on bootstrap and got closer with responsiveness
     - Watched a tutorial on bootstrap navbar
+  3. Finally found the answer by copying piece of the code over to an empy text bootstrap html file. For some reason on the new file the navbar had differen't classes and it worked
+    - Narrowed it down to find the answer by comparing the two by each line
+    - Basically debugging strategy
+
+- Menu links won't justify
+  - Added a border around the column, then div 
+  - Found the I was trying to justify the div in the column which because it was the only thing in the div it couldn't move
+  - Make sure you use borders and be specific about what you are trying to justify
 
 ## Chrome dev tools
 
@@ -179,3 +187,7 @@ https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
 <nav class="navbar navbar-expand-md d-flex w-100 ">
 ```
 - especially the navbar-expand-md which makes the nav list horizontal after the medium breakpoint(or whichever you set). And apparently it also determines if the menu icon will disapeear and the links will show automatically at that breakpoint
+
+### Jusity menu links end 
+- used .justify-content-end on the div above ul 
+  - For some reason adding .d-flex to that same div messed with the menu buton and put the links outside of the menu button

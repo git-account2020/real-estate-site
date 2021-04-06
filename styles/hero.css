@@ -1,0 +1,12 @@
+.hero-section{
+  height: 40em;
+}
+.bg-image{
+  background: url("../images/hero_image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size:cover;
+
+}
+

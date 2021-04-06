@@ -1,18 +1,7 @@
 @import "styles/header.css";
 @import "styles/footer.css";
+@import "styles/hero.css";
 
-
-
-.hero-section{
-    height: 30em;
-}
-.bg-image{
-    background: url("images/real-estate-pexels-splash-home.jpeg");
-     background-repeat: no-repeat, repeat;
-     background-size: cover;
-     width:100%;
-    
- }
 
 
 

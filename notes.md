@@ -1,3 +1,5 @@
+
+
 ## Troubleshooting steps
 
   1. Write down in dialy tasks the steps you will try before based on your best guest
@@ -191,3 +193,7 @@ https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
 ### Jusity menu links end 
 - used .justify-content-end on the div above ul 
   - For some reason adding .d-flex to that same div messed with the menu buton and put the links outside of the menu button
+
+### Text size responsive (Bootstrap)
+- https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/
+- Also in programming folder on google drive in bootstrap procedures

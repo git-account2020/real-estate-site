@@ -213,6 +213,21 @@ https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
 ## hero Section
 
 ### Sticky hero background
+
+```css
+.img-property{
+  height:40em;
+  background-image:url(images/img-property.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size:cover;
+}
+```
+
+
+### Hero Image with Transparent Colered Overlay
+https://codepen.io/DZuz14/pen/jOPWLgz
 - Create two divs
   - container div you will have the background image on 
   - overlay div you will have your content and a dark background color on
@@ -230,15 +245,3 @@ https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
   - Give .overlay a   background: rgba(0, 0, 0, 0.65);
     - possibly .bg-color-secoundary might work
   - Remove the padding left and right from the original .container so the overlay covers the whole container
-
-
-```css
-.img-property{
-  height:40em;
-  background-image:url(images/img-property.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size:cover;
-}
-```

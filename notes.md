@@ -28,6 +28,18 @@
   - Found the I was trying to justify the div in the column which because it was the only thing in the div it couldn't move
   - Make sure you use borders and be specific about what you are trying to justify
 
+- Hero Image Overlay
+  1. Found a video that showed me how to do it
+  2. Looked at the code
+  3. Copied the code to make sure it works for me
+  4. Figured out how it worked
+    - Added border to the div I was learning about
+    - Add comment to each line to explain what they did
+      - If I didn't know I looked it up
+    - Removed background image temporarily to see the overlay alone
+  5. Test it on my project
+    
+
 ## Chrome dev tools
 
 ### Computed Tab
@@ -197,3 +209,36 @@ https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
 ### Text size responsive (Bootstrap)
 - https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/
 - Also in programming folder on google drive in bootstrap procedures
+
+## hero Section
+
+### Sticky hero background
+- Create two divs
+  - container div you will have the background image on 
+  - overlay div you will have your content and a dark background color on
+- The overlay div goes inside the container div
+- The overlay div needs to fill 100% of the vertical and horizontal space of its container div
+- This will put a dark background with content on top of the picture making it apear darker and that it has content on it.
+
+- In bootstrap
+  - Make a .container-fluid class
+  - Giv it a background image
+  - Give it a height (can use vh or em)
+  - Verify you can see image
+  - Inside that container-flud add another .container-fluid with all the content of the page like you normally would
+  - Give this secound .container-fluid a class of .overlay
+  - Give .overlay a   background: rgba(0, 0, 0, 0.65);
+    - possibly .bg-color-secoundary might work
+  - Remove the padding left and right from the original .container so the overlay covers the whole container
+
+
+```css
+.img-property{
+  height:40em;
+  background-image:url(images/img-property.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size:cover;
+}
+```

@@ -16,56 +16,58 @@
   <body>
       <!-- == Container== -->
       <div class="container-fluid bg-image">
-        <header>
-          <div class="row ">
-            <!-- Nav -->
-            <nav class="navbar navbar-expand-md d-flex w-100 ">
-                <!-- header logo icon -->
-                <div class="col-4  col-sm-3 col-md-2 ">
-                    <img src="images/realEstateLogo.png" class="w-100 " alt="brand logo">
-                </div>
-                <!-- Header Menu Links-->
-                <div class="col-8 col-sm-9 col-md-10 d-flex justify-content-end align-items-center ">
-                  <div class="collapse navbar-collapse justify-content-end " id="mainNavBar">
-                    <ul class="navbar-nav navbar-expand-md  " >
-                      <li class="nav-item">
-                          <a class="nav-link text-white headerMenulink" href="#">Home</a>
-                      </li>
-                      <li class="nav-item ml-md-3">
-                          <a class="nav-link text-white headerMenulink" href="#">About Us</a>
-                      </li>
-                      <li class="nav-item ml-md-3">
-                          <a class="nav-link text-white headerMenulink" href="#">Blog</a>
-                      </li>
-                      <li class="nav-item ml-md-3">
-                          <a class="nav-link text-white headerMenulink" href="#">Contact Us</a>
-                      </li>
-                    </ul>
+        <div class="container-fluid overlay">
+          <header>
+            <div class="row ">
+              <!-- Nav -->
+              <nav class="navbar navbar-expand-md d-flex w-100 ">
+                  <!-- header logo icon -->
+                  <div class="col-4  col-sm-3 col-md-2 ">
+                      <img src="images/realEstateLogo.png" class="w-100 " alt="brand logo">
                   </div>
-                  <!--  menu button-->
-                  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#mainNavBar" aria-controls="mainNavBar" aria-expanded="false" aria-label="Toggle navigation" >
-                    <i class="lni lni-menu navbar-toggler-icon text-white"></i>
-                  </button>
-                  
-                </div>        
-                </nav>
-            </div>
-        </header>
-              
-            <div class="row">
-                <div class="col d-flex flex-column align-items-center hero-section justify-content-center" > 
-                    <!-- Title-->
-                    <h1 class="text-white">
-                        Find Your Property
-                    </h1>
-                    <!--Search Bar w/ search icon -->
-                    <div class="form-group d-flex border"> <!-- .form-group makes sure boostrap margins are right .d-flex turns the label, input, button into flex items .border adds a border around the whole form  -->
-                        <label class="sr-only" for="search">Search</label> <!-- Add label for screen reader. Use .sr-only so only the screen reader sees it(has no effect on site normally)-->
-                        <input class="form-control border-0 " placeholder="Search by State, City, Zip..." size="50" type="search" name="" id=""> <!-- form-control makes input have boostrap styling and (susposed to increase width to 100) .border-0 removes border from input box -->
-                        <button type="button " class="btn "><img src="images/search.svg" alt="search icon"></button> <!-- .btn adds boostrap formate that has no color or border?-->
+                  <!-- Header Menu Links-->
+                  <div class="col-8 col-sm-9 col-md-10 d-flex justify-content-end align-items-center ">
+                    <div class="collapse navbar-collapse justify-content-end " id="mainNavBar">
+                      <ul class="navbar-nav navbar-expand-md  " >
+                        <li class="nav-item">
+                            <a class="nav-link text-white headerMenulink" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ml-md-3">
+                            <a class="nav-link text-white headerMenulink" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item ml-md-3">
+                            <a class="nav-link text-white headerMenulink" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item ml-md-3">
+                            <a class="nav-link text-white headerMenulink" href="#">Contact Us</a>
+                        </li>
+                      </ul>
                     </div>
-                </div>
-            </div>
+                    <!--  menu button-->
+                    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#mainNavBar" aria-controls="mainNavBar" aria-expanded="false" aria-label="Toggle navigation" >
+                      <i class="lni lni-menu navbar-toggler-icon text-white"></i>
+                    </button>
+                    
+                  </div>        
+                  </nav>
+              </div>
+          </header>
+                
+              <div class="row">
+                  <div class="col d-flex flex-column align-items-center hero-section justify-content-center" > 
+                      <!-- Title-->
+                      <h1 class="text-white text-shadow">
+                          Find Your Property
+                      </h1>
+                      <!--Search Bar w/ search icon -->
+                      <div class="form-group d-flex border"> <!-- .form-group makes sure boostrap margins are right .d-flex turns the label, input, button into flex items .border adds a border around the whole form  -->
+                          <label class="sr-only" for="search">Search</label> <!-- Add label for screen reader. Use .sr-only so only the screen reader sees it(has no effect on site normally)-->
+                          <input class="form-control border-0 " placeholder="Search by State, City, Zip..." size="50" type="search" name="" id=""> <!-- form-control makes input have boostrap styling and (susposed to increase width to 100) .border-0 removes border from input box -->
+                          <button type="button " class="btn "><img src="images/search.svg" alt="search icon"></button> <!-- .btn adds boostrap formate that has no color or border?-->
+                      </div>
+                  </div>
+              </div>
+        </div>
         <!-- ==End of Container== -->
         </div>
         <!-- ==Footer== -->

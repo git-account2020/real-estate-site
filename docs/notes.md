@@ -269,3 +269,13 @@ https://codepen.io/DZuz14/pen/jOPWLgz
   background: transparent;
 }
 ```
+
+### Change placeholder color
+create a class eg: .placeholder-search
+add following css
+```css
+.placeholder-search::placeholder{
+  color: white;
+  
+}
+```

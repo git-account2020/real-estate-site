@@ -19,3 +19,12 @@
 
 }
 
+
+.form-control{
+  background: transparent;
+}
+
+.placeholder-search::placeholder{
+  color: white;
+  
+}

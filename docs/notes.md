@@ -263,13 +263,14 @@ https://codepen.io/DZuz14/pen/jOPWLgz
   ### Transparent search bar
   - Bootstrap
     - ON input element add .bg-transparent(b)
+    - Note this will keep the background transparent when you type
   - CSS 
 ```css
 .form-control{
   background: transparent;
 }
 ```
-
+- Note this the background will be white when you type
 ### Change placeholder color
 create a class eg: .placeholder-search
 add following css
@@ -279,3 +280,13 @@ add following css
   
 }
 ```
+### Chance input search bar border thickness 
+1. Create a class like .border-form
+2. Add it the main div surrounding your search bar or just to the input element if its just a regular input
+3. Add css to class
+```Css
+.border-form{
+  border:3px solid white;
+}
+```
+

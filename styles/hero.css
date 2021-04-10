@@ -13,18 +13,18 @@
   height: 40em;
   padding:0;
 }
-
+.border-form{
+  border:3px solid white;
+}
 .overlay{
   background: rgba(0, 0, 0, 0.4);
 
 }
 
-
-.form-control{
-  background: transparent;
+.searchbox{
+  font-weight: 400;
 }
-
-.placeholder-search::placeholder{
+.searchbox::placeholder{
   color: white;
   
 }

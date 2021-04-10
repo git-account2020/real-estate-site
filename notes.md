@@ -202,9 +202,15 @@ https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
 ```
 - especially the navbar-expand-md which makes the nav list horizontal after the medium breakpoint(or whichever you set). And apparently it also determines if the menu icon will disapeear and the links will show automatically at that breakpoint
 
-### Collapse menu not location
+### Collapse menu not in right location
 - If you want to click the button the links show up under/after the button then button has to be first in the html
 - If you want to click the button and the links show up in front/side of the button the links have to been infront of the button in html
+
+### Collapse menu justify center on small screen
+- On the div containing the whole menu section change the col at small ( or whatever breakpoint you want) to col-breakpoint-12. This way while the screen is from 0 up to all of the small value the menu div will take the whole with of the screen
+- You can now center the links with .text-center
+  - You use text center because you can't flex the menu div with without messing up everything else
+-
 
 ### Jusity menu links end 
 - used .justify-content-end on the div above ul 
@@ -214,7 +220,11 @@ https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
 - https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/
 - Also in programming folder on google drive in bootstrap procedures
 
-## hero Section
+
+
+
+
+## Hero Section
 
 ### Sticky hero background
 

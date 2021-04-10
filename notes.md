@@ -146,7 +146,7 @@ Ex:
 ```html
 <div class="col-12 col-sm-6 col-lg-3 mt-sm-0 ">
 ```
-### What does .col-md mean?
+### What does .col-md mean column?
 ```html
   <div class="col-md"> 
     <!-- columns will be veritically stacked until it hits medium viewport -->
@@ -201,6 +201,10 @@ https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
 <nav class="navbar navbar-expand-md d-flex w-100 ">
 ```
 - especially the navbar-expand-md which makes the nav list horizontal after the medium breakpoint(or whichever you set). And apparently it also determines if the menu icon will disapeear and the links will show automatically at that breakpoint
+
+### Collapse menu not location
+- If you want to click the button the links show up under/after the button then button has to be first in the html
+- If you want to click the button and the links show up in front/side of the button the links have to been infront of the button in html
 
 ### Jusity menu links end 
 - used .justify-content-end on the div above ul 

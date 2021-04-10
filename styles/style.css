@@ -1,0 +1,12 @@
+@import "header.css";
+@import "footer.css";
+@import "hero.css";
+
+
+
+
+ 
+ .search-icon{
+  background: url(images/icon.png) no-repeat right center;
+}
+

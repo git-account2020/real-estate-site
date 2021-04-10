@@ -48,6 +48,12 @@ This shows the actual resolved css as it is rendered on the page
 ### Style Tab
 This shows the css as it was written
 
+## Head
+
+### Link style sheet inside styles folder
+```html
+<link rel="stylesheet" href="styles/style.css">
+```
 ## Footer
 
 ### Sticky footer (CSS)

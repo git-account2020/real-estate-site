@@ -53,21 +53,26 @@
                   </nav>
               </div>
           </header>
-                
-              <div class="row">
-                  <div class="col d-flex flex-column align-items-center hero-section justify-content-center" > 
-                      <!-- Title-->
-                      <h1 class="text-white text-shadow">
-                          Find Your Property
-                      </h1>
-                      <!--Search Bar w/ search icon -->
-                      <div class="form-group d-flex border"> <!-- .form-group makes sure boostrap margins are right .d-flex turns the label, input, button into flex items .border adds a border around the whole form  -->
-                          <label class="sr-only" for="search">Search</label> <!-- Add label for screen reader. Use .sr-only so only the screen reader sees it(has no effect on site normally)-->
-                          <input class="form-control border-0 " placeholder="Search by State, City, Zip..." size="50" type="search" name="" id=""> <!-- form-control makes input have boostrap styling and (susposed to increase width to 100) .border-0 removes border from input box -->
-                          <button type="button " class="btn "><img src="images/search.svg" alt="search icon"></button> <!-- .btn adds boostrap formate that has no color or border?-->
-                      </div>
+          <!-- ==Hero== -->
+          <section class="hero">
+            <div class="row">
+              <div class="col d-flex flex-column align-items-center hero-section justify-content-center" > 
+                  <!-- Title-->
+                  <h1 class="text-white text-shadow">
+                      Find Your Property
+                  </h1>
+                  <!--Search Bar w/ search icon -->
+                  <div class="form-group d-flex border "> <!-- .form-group makes sure boostrap margins are right .d-flex turns the label, input, button into flex items .border adds a border around the whole form  -->
+                      <label class="sr-only" for="search">Search</label> <!-- Add label for screen reader. Use .sr-only so only the screen reader sees it(has no effect on site normally)-->
+                      <input class="form-control border-0 bg-transparent " placeholder="Search by State, City, Zip..." size="50" type="search" name="" id=""> <!-- form-control makes input have boostrap styling and (susposed to increase width to 100) .border-0 removes border from input box -->
+                      <button type="button" class="btn  "><svg class="text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg></button> <!-- .btn adds boostrap formate that has no color or border?-->
                   </div>
               </div>
+          </div>
+          </section>      
+              
         </div>
         <!-- ==End of Container== -->
         </div>

@@ -259,3 +259,13 @@ https://codepen.io/DZuz14/pen/jOPWLgz
   - Give .overlay a   background: rgba(0, 0, 0, 0.65);
     - possibly .bg-color-secoundary might work
   - Remove the padding left and right from the original .container so the overlay covers the whole container
+
+  ### Transparent search bar
+  - Bootstrap
+    - ON input element add .bg-transparent(b)
+  - CSS 
+```css
+.form-control{
+  background: transparent;
+}
+```

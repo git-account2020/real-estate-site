@@ -8,10 +8,35 @@
   width: 100%;
 }
 
-
 /*
 
+ <!-- ==Map== -->
+        <section class="map">
+          <div class="container-fluid map-container">
+            <div class="row">
+              <div class="col">
+                <div id="map">
+  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+*/
+
+/*
+https://www.youtube.com/watch?v=9CY0V0JAgNU&t=165s
   1. Create a div with id map
   2. Give that div a height and width
-
+  3. Use javascript to create map
+    function initMap(){
+  var location = {lat: -35.223789, lng: 80.841141};
+  var map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4, 
+    center: location
+  });
+}
+  4. Get a key from google
 */
+
+

@@ -261,6 +261,7 @@ https://codepen.io/DZuz14/pen/jOPWLgz
   - Give it a height (can use vh or em)
   - Verify you can see image
   - Inside that container-flud add another .container-fluid with all the content of the page like you normally would
+  - Give it a .h-100 
   - Give this secound .container-fluid a class of .overlay
   - Give .overlay a   background: rgba(0, 0, 0, 0.65);
     - possibly .bg-color-secoundary might work

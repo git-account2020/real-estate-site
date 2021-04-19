@@ -297,3 +297,10 @@ add following css
 }
 ```
 
+## Section
+
+### Column sizes need to be even but not fill the entire width
+- Used .col-3 for size even though it was only three columns which usually would be a .col-4. (bootstrap)
+
+### Center columns in a row
+- beside the row class add .justify-content-center (boostrap)

@@ -1,3 +1,25 @@
-.p-6{
-  padding:6rem;
+
+
+.properties h2{
+  color: #34495e;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.properties p{
+  font-size: 1rem;
+  color: rgb(170, 170, 170);
+}
+
+@media (min-width: 0px) {  
+  .property-card {
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+}
+@media (min-width: 768px) {  
+  .property-card  {
+    padding-top:60px;
+    padding-bottom:60px;
+  }
 }

@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
 
+.properties{
+  font-family: 'Maven Pro', sans-serif;
+}
 
+.properties h5{
+  color:#343a40;
+}
 .properties h2{
   color: #34495e;
   font-size: 2rem;

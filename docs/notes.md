@@ -304,3 +304,8 @@ add following css
 
 ### Center columns in a row
 - beside the row class add .justify-content-center (boostrap)
+
+### Cards different heights
+- If the cards are different heights because of text 
+- Add .h-100 to the class beside card on all the cards
+  - This will make the cards fill the entire hieght of of the column

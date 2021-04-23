@@ -18,6 +18,10 @@
   color: rgb(170, 170, 170);
 }
 
+.properties span{
+  color: #AAAAAA 
+}
+
 
 @media (min-width: 0px) {  
   .property-card {

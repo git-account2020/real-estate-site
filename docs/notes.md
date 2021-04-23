@@ -227,9 +227,6 @@ https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
 - Also in programming folder on google drive in bootstrap procedures
 
 
-
-
-
 ## Hero Section
 
 ### Sticky hero background
@@ -296,6 +293,13 @@ add following css
   border:3px solid white;
 }
 ```
+### Button fill space of containing div
+- Use .d-flex on btn group
+- use .flex-fill on each button
+
+### Move text on a button
+- .d-flex on button class
+- .justify-content-*, or .align-content-* etc
 
 ## Section
 
@@ -309,3 +313,6 @@ add following css
 - If the cards are different heights because of text 
 - Add .h-100 to the class beside card on all the cards
   - This will make the cards fill the entire hieght of of the column
+
+### Card content uneven
+- on the same div as .card body usded: d-flex flex-column justify-content-between

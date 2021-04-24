@@ -332,7 +332,9 @@ border:white;
 to fix this add .p-2 to the first dropdown item in each dropdown menu
 - .p-2 issued because its about 37.5% but in bootstrap it goes from .p-1 .25 and .p-2 .50 
 
-
+### Put space (padding ) in between buttons
+- add padding to the div conting the buttons
+ 
 ## Section
 
 ### Column sizes need to be even but not fill the entire width

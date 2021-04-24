@@ -301,7 +301,7 @@ add following css
 - .d-flex on button class
 - .justify-content-*, or .align-content-* etc
 
-### Tranparent dropdown button
+### Tranparent dropdown button (when clicked)
 - Add .bg-transparent to button class
 - Add .text-* to make sure the text stays the same color you want when the button is clicked
 

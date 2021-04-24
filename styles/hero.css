@@ -31,6 +31,21 @@
   
 }
 
-#test option {
-  background-color: transparent
-  }
+
+.dropdown-menu{
+  background: transparent;
+  border: 1px solid white;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+
+.dropdown-menu a{
+  color: #FFFFFF ;
+
+}
+
+.dropdown-menu a:hover{
+  background:white;
+}
+

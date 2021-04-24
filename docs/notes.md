@@ -38,7 +38,10 @@
       - If I didn't know I looked it up
     - Removed background image temporarily to see the overlay alone
   5. Test it on my project
-    
+
+ - Styling classes
+  - search in google :  .className  what you want to do
+  - Look for stack overflow guide
 
 ## Chrome dev tools
 
@@ -304,6 +307,31 @@ add following css
 ### Tranparent dropdown button (when clicked)
 - Add .bg-transparent to button class
 - Add .text-* to make sure the text stays the same color you want when the button is clicked
+
+### Transparent dropdown menu
+```css
+.dropdown-menu{
+border:white;
+}
+```
+### Dropdown item text color
+```css
+.dropdown-menu a{
+  color: #FFFFFF !important;
+}
+```
+### Dropdown item hover background
+```css
+.dropdown-menu a:hover{
+  background:white;
+}
+
+```
+
+- in boostrap the padding will be off between the menu and the item
+to fix this add .p-2 to the first dropdown item in each dropdown menu
+- .p-2 issued because its about 37.5% but in bootstrap it goes from .p-1 .25 and .p-2 .50 
+
 
 ## Section
 

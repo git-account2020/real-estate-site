@@ -53,19 +53,23 @@
               </div>
           </header> 
           <!-- ==Hero== -->
-          <section class="hero">
-            <div class="row">
-              <div class="col d-flex flex-column align-items-center hero-section justify-content-center " > 
-                  <div class="title-search-dropdown">
+          <section class="hero ">
+            <div class="row ">
+              <div class="col d-flex flex-column  align-items-center hero-section justify-content-center " > 
+                <div class="title-search-dropdown-container">
                     <!-- Title-->
                   <h1 class="text-white text-shadow text-center">
                     Find Your Property
                 </h1>
-                <!--Search Bar w/ search icon -->
+
+                <!-- Form-->
+                <form action="">
+                   <!--Search Bar w/ search icon -->
                 <div class="form-group d-flex "> 
-                    <label class="sr-only" for="search">Search</label>
-                    <input class="form-control  searchbox bg-transparent text-white "  placeholder="Search by State, City, Zip..." size="50" type="text" name="" id=""> 
-                </div>
+                  <label class="sr-only" for="search">Search</label>
+                  <input class="form-control  searchbox bg-transparent text-white "  placeholder="Search by State, City, Zip..." size="50" type="text" name="" id=""> 
+                </div> <!-- End of Search-->
+                
                 <!--Dropdown buttons -->
                 <div class="d-flex ">
                   <div class="dropdown  flex-fill   ">
@@ -93,20 +97,29 @@
                     <button class="btn btn-outline-light dropdown-toggle   flex-fill d-flex justify-content-between align-items-center bg-transparent text-white w-100" data-toggle="dropdown">
                       Baths
                     </button>
-                    <div class="dropdown-menu">
+                    <div class="dropdown-menu ">
                       <a class="dropdown-item pt-2" href="#">2</a>
                       <a class="dropdown-item" href="#">3</a>
                       <a class="dropdown-item" href="#">4</a>
                     </div>
                   </div>
-                </div> 
-              </div>  
-            </div>
-          </div>
-          </section>       
-        </div>
-        <!-- ==End of Header == -->
-        </div>
+                </div> <!-- End of Dropdowns-->
+                
+                 <!-- Search button -->
+                  <div class="d-flex justify-content-center">
+                    <input type="submit" class="btn  btn-outline-light mt-3 btn-submit   " value="Search">
+                    <!-- End of search button --> 
+                  </div>
+              </form> <!-- End of Form-->
+                
+            </div> <!-- End of flex div for searchbar,dropdowns, and search button-->
+              </div> <!--End col-->
+            </div> <!--End rows-->
+          </section> 
+          </div> <!-- End of overlay container  -->     
+        </div>  <!-- End of Bg  Container   --> 
+        
+
      
         <!-- == Properties == -->
       <section class="properties">

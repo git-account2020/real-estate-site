@@ -19,5 +19,6 @@ var marker2 = L.marker([35.186900915557096, -80.7929201458996]).addTo(mymap);
 var marker3 = L.marker([35.12273250423745, -80.8181577747685]).addTo(mymap);
 
 //Add popup to marker
-marker.bindPopup("<b> </b><br>Raleigh NC").openPopup();
-marker.bindPopup("<b> </b><br>Charlotte NC").openPopup();
+marker.bindPopup("<img src='images/property3.jpg' style=' width:100%' alt='House image'><br>Raleigh NC").openPopup();
+marker2.bindPopup("<img src='images/property2.jpg' style=' width:100%' alt='House image'><br>Charlotte NC").openPopup();
+marker3.bindPopup("<img src='images/property1.jpg' style=' width:100%' alt='House image'><br>Charlotte NC").openPopup();

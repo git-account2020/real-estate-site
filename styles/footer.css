@@ -43,14 +43,13 @@ color: white;
 }
 
 
-
 .lni-twitter-filled:hover {
   background-color: #00acee ;
   color: white;
 }
 
-.lni-instagram-filled:hover {
-  background-color:#458eff;
+.lni-instagram:hover {
+  background-color:#dd2a7b;
   color:  white;
 }
 

@@ -3,11 +3,10 @@
 @import "hero.css";
 @import "map.css";
 @import "properties.css";
+@import "agents.css";
 
 
 
- 
- .search-icon{
-  background: url(images/icon.png) no-repeat right center;
-}
+
+
 

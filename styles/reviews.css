@@ -22,3 +22,38 @@
   border: 8px solid #E1E1E1;
 }
 
+
+
+
+.recommendation-title{
+  font-family:  'Poppins', sans-serif;
+  font-weight: 600;
+  
+}
+.recommendation-title::after{
+  font-family: "FontAwesome";
+  content: "\f10e";
+  font-size: 56px;
+  color: #F0F0F1;
+  
+}
+
+.recommendation-quote{
+  color:#616b71;  
+}
+
+.reviews-name{
+  font-weight: 700 ;
+
+}
+reviews-job{
+  font-weight: 700;
+}
+
+.fa-quote-right{
+  color:#F0F0F1;
+  font-size: 60px;
+  opacity: 0.8;
+}
+
+>

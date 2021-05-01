@@ -350,3 +350,41 @@ to fix this add .p-2 to the first dropdown item in each dropdown menu
 
 ### Card content uneven
 - on the same div as .card body usded: d-flex flex-column justify-content-between
+
+### How to use psuedo-elements like ::before or ::after
+```css
+.recommendation-title{
+  font-family:  'Poppins', sans-serif;
+  font-weight: 600;
+  
+}
+.recommendation-title::after{
+  font-family: "FontAwesome";
+  content: "\f10e";
+  font-size: 56px;
+  color: #F0F0F1;
+  
+}
+```
+
+### How to add icon to psuedo-element
+- In font awesome 4.7
+```css
+.recommendation-title{
+  font-family:  'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.recommendation-title::after{
+  font-family: "FontAwesome";
+  content: "\f10e";
+  font-size: 56px;
+  color: #F0F0F1;
+  
+}
+
+```
+  - Must remember to add font-family or it won't work
+  - In the content section you have to use the unicode with a \ to escape it
+
+- in font awesome 5 plus you might not need to do this 
